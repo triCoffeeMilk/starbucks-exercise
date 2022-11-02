@@ -65,16 +65,6 @@ fadeEls.forEach(function (fadeEl, index) {
   });
 });
 
-// material icon이 동적으로 변경될 수 있는지 궁금했는데, 처음 HTML에서 없는 요소라서 가져오지 못하는 듯.
-// const materialEl = document.querySelector('.notice .toggle-promotion');
-// materialEl.addEventListener('click', function() {
-//   console.log('toggle');
-//   if (materialEl.innerHTML == '<div class="material-icons">arrow_down</div>')
-//     materialEl.innerHTML = '<div class="material-icons">upload</div>';
-//   else
-//     materialEl.innerHTML = '<div class="material-icons">arrow_down</div>';
-// });
-
 // notice 쪽 vertical swiper
 // const swiperEl = document.querySelector('.notice .swiper');
 // const swiper = new Swiper(swiperEl, {
