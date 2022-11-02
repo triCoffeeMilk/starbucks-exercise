@@ -153,7 +153,7 @@ floatingObject('.floating1', 1, 15);
 floatingObject('.floating2', .5, 15);
 floatingObject('.floating3', 1.5, 20);
 
-
+// ScrollMagic을 이용해서 순차적 애니메이팅
 const spyEls = document.querySelectorAll('section.scroll-spy');
 spyEls.forEach(function(spyEl){
   new ScrollMagic.Scene({
