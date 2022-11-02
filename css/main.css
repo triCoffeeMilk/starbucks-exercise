@@ -409,19 +409,6 @@
   height: 334px;
   perspective: 600px;
 }
-/* .reserve-store .container {
-  background-color: orange;
-  perspective: 30px;
-}
-.reserve-store .container .item {
-  width: 100px;
-  height: 100px;
-  backface-visibility: hidden;
-  transition: 1s;
-}
-.reserve-store .container .item:hover {
-  transform: rotateY(180deg);
-} */
 .reserve-store .medal .front,
 .reserve-store .medal .back {
   width: 334px;
